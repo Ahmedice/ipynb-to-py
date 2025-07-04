@@ -15,7 +15,7 @@ Try the app directly on Streamlit Cloud:
 
 ## 📸 Preview
 
-![App Screenshot](path/to/screenshot.png)
+![App Screenshot](ezgif-62a76f5cdd9bf0.gif)
 
 ---
 
