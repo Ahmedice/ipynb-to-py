@@ -108,9 +108,6 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True
 )
 
-if st.button(texts["reset"][lang]):
-    st.experimental_rerun()
-    
 converted_files = []
 
 if uploaded_files:
