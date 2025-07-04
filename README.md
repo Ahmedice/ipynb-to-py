@@ -6,6 +6,19 @@
 
 ## 🌐 Streamlit Web Application
 
+## 🌐 Live Demo
+
+Try the app directly on Streamlit Cloud:
+
+👉 [https://ipynb-to-py.streamlit.app/](https://ipynb-to-py.streamlit.app/)
+
+
+## 📸 Preview
+
+![App Screenshot](path/to/screenshot.png)
+
+---
+
 ### Run locally:
 
 ```bash
