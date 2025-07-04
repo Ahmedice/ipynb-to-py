@@ -109,8 +109,7 @@ uploaded_files = st.file_uploader(
 )
 
 if st.button(texts["reset"][lang]):
-    ctx = get_script_run_ctx()
-    raise RerunException(ctx)
+    st.experimental_rerun()
     
 converted_files = []
 
