@@ -11,7 +11,7 @@
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 Then open your browser at: http://localhost:8501
 
 
@@ -32,9 +32,10 @@ nbformat
 nbconvert
 
 Install all requirements using:
+```bash
 
 pip install -r requirements.txt
-
+```
 
 
 ✔️ EXE Desktop version (offline tool) coming soon
