@@ -1,4 +1,6 @@
 import streamlit as st
+from streamlit.runtime.scriptrunner import RerunException
+from streamlit.runtime.scriptrunner import get_script_run_ctx
 import nbformat
 from nbconvert import PythonExporter
 import io
@@ -107,7 +109,9 @@ uploaded_files = st.file_uploader(
 )
 
 if st.button(texts["reset"][lang]):
-    st.rerun()
+    ctx = get_script_run_ctx()
+    raise RerunException(ctx)
+    
 converted_files = []
 
 if uploaded_files:
